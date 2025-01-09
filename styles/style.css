@@ -1,0 +1,329 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", serif;
+}
+
+
+
+.banner-container{
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;   
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.banner{
+   
+}
+
+.banner-title{
+    font-size: 32px;
+    color: #FFFFFF;
+    
+}
+.banner-subtitle{
+    font-size: 72px;
+    color: #FFFFFF;
+    line-height: 85px;
+}
+.offer-container{
+    width: 802.2px;
+    height: 806px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer-title{
+    color: #FF0000;
+    font-size: 88px;
+    font-weight: bold;
+   
+}
+.offer-description{
+    color: #FF0000;
+    font-size: medium;
+    font-weight: 23px;
+    margin-top: 48px;
+}
+.offer-image{
+    margin-top: 48px;
+}
+.offer-subtitle{
+    margin-top: 16px;
+}
+
+/* start party section */
+.party{
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('../images/Vectorrr.png');
+    margin: 0px auto;
+    margin-top: 120px;
+}
+.party-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 39.17px;
+}
+.party-title{
+   color:#FFFFFF ;
+   font-size: 64px; 
+   font-weight: black;
+   margin-top: 126px;
+}
+.party-discription{
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-top: 24px;
+    
+}
+.party-img{
+    margin-top: 68.11px;
+    margin-bottom: 67.32px;
+}
+.party-btn{
+    margin-top: 32px;
+    margin-bottom: 142px;
+    margin-left: 50px;
+}
+/* start park section */
+.park{
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    margin: 0px auto;
+    margin-top: 100px;
+}
+.park-container{
+   text-align: center;
+   padding: 100px 386px 214px 385px;
+}
+.park-place{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 10px;
+}
+.park-date{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 10px;
+}
+.park-time{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 10px;
+}
+span{
+    color: #FF0000;
+}
+.park-btn{
+    border: 2px solid gray;
+    color: white;
+    background-color: #FF0000;
+    padding:10px;
+    border-radius: 9px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.best{
+    width: 1320px;
+    height: 463px;
+    margin: 0px auto;
+    margin-top: 120px;
+}
+.best-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+.new-best{
+    color: #FF0000;
+    font-size: medium;
+    font-weight: 24px;
+}
+.coming{
+    color: #070211;
+    font-size: black;
+    font-weight: bold;
+}
+
+.best-img{
+    width: 364.84px;
+    height: 368.84px;
+    margin-top: 40px;
+    padding: 20px;
+    border: 10px solid red;
+    border-radius: 50%;
+}
+.new-year{
+    width: 100px;
+    width: 100px;
+    margin-top: 50px;
+}
+.an-description{
+    margin-top: 20px;
+    margin-bottom: 43px;
+}
+.coming{
+    margin-top: 10px;
+    font-size: black;
+    font-weight: 48px;
+}
+.an-title{
+    color: #FF0000;
+    font-size: 48ox;
+    font-weight: bold;
+}
+
+/* start sale section */
+.sale{
+    width: 1320px;
+    height: 886.07px;
+    margin: 50px auto;
+    margin-top: 120px;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.sale-content{
+    text-align: center;
+}
+.day{
+    margin-top: 16px;
+    font-size: 72px;
+    font-weight: black;
+}
+.sale-dis{
+    margin-top: 28px;
+    font-size: medium;
+    font-weight: 20px;
+}
+span{
+    color: #FF0000;
+}
+.sale-container{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.sale-img-1 img{
+   
+}
+
+.sale-img-2 img{
+   
+margin-top: 20px; 
+}
+
+/* start portfolio section */
+.portfolio{
+    width: 1320px;
+    height: 1163px;
+    margin: 0px auto;
+    margin-top: 120px;
+}
+.portfolio-title{
+    color: #FF0000;
+}
+.portfolio-sub-title{
+    margin-top: 16px;
+    font-size: 48px;
+    font-weight: black;
+}
+.portfolio-dis{
+    margin-top: 22px;
+    font-size: 20px;
+    font-weight: regular;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    
+}
+.card img{
+    width: 424px;
+    height: 450px;
+    border-radius:16px;
+    transition: transform 0.3s ease;
+}
+.card img:hover{
+    transform: translate(5px) ;
+}
+.card-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+
+}
+.card-1 img{
+    width: 424px;
+    height: 450px;  
+    border-radius: 16px;
+   transition: transform 0.3s ease;
+}
+.card-1 img:hover{
+    transform: translate(5px);
+   
+}
+
+/* start subscribe section */
+.subscribe{
+    width: 1320px;
+    height: 616px;
+    background-color: aqua;
+    margin: 0px auto;
+    margin-top: 120px;
+}
+.newsletter{
+    text-align: center;
+    
+}
+.news-img{
+    margin-top: 80px;
+}
+.news-title{
+    margin-top: 40px;
+}
+.news-dis{
+    margin-top: 22px;
+}
+.news-form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 48px;
+
+}
+.news-form input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+.news-form button{
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+}
