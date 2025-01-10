@@ -288,9 +288,11 @@ margin-top: 20px;
 .subscribe{
     width: 1320px;
     height: 616px;
-    background-color: aqua;
+   
     margin: 0px auto;
     margin-top: 120px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
 }
 .newsletter{
     text-align: center;
@@ -305,25 +307,66 @@ margin-top: 20px;
 .news-dis{
     margin-top: 22px;
 }
-.news-form{
+
+form{
+    display: flex;
+    gap: 0px;
+    justify-content: center;
+    margin-top: 50px;
+}
+input[type="email"]{
+    height: 50px;
+    padding: 0px 120px 0px 30px;
+    border: none;
+    border-radius: 50px 0px 0px  50px;
+}
+.form-btn{
+    background-color:#FF0000;
+    height: 50px;
+    padding: 0px 30px 0px 30px;
+    border-radius: 0px 50px 50px 0px;
+    color: #fff;
+    border: none;
+}
+
+/* start footer section */
+footer{
+ width: 1536px;
+ height: 500px;
+ background-color:#070211;
+ margin-top: 120px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+   
+}
+.info-des{
+font-size: medium;
+font-weight :24px;
+line-height: 2;
+}
+.information{
+    margin-top: 120px;
+}
+.contact{
+    margin-top: 120px;
+    
+}
+
+.footer-icon{
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 98px;
     gap: 10px;
-    border-radius: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: 48px;
-
 }
-.news-form input{
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 200px;
-}
-.news-form button{
-    padding: 10px 20px;
-    background-color: #ff4d4d;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-size: 14px;
+.right{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 98px;
+    margin-bottom: 120px;
+    color: #FFFFFF;
 }
